@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* AQUÍ CONFIGURAMOS EL TEMA PARA LA NUEVA VERSIÓN */
+@theme {
+  /* Conectamos las variables de tu layout con clases de Tailwind */
+  --font-display: var(--font-krona); 
+  --font-sans: var(--font-inter);
+  --font-manrope: var(--font-manrope);
+
+  /* Tus colores personalizados */
+  --color-fashion-black: #050505;
+  --color-fashion-white: #F4F4F4;
+  
+  /* Tamaños de texto */
+  --text-10xl: 10rem;
+  --text-giant: 16rem;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #050505;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans); /* Usamos Inter como base */
+  cursor: crosshair;
+}
+
+/* Ocultar barra de scroll */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+/* --- EFECTOS 3D FLIP CARD --- */
+
+/* Define la profundidad de la escena 3D */
+/* --- EFECTOS 3D FLIP CARD --- */
+
+perspective-1000 {
+  perspective: 2500px; 
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
