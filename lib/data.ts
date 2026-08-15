@@ -131,13 +131,7 @@ export const projects = [
     year: "2022",
     gallery: [
       // Tu primera imagen original
-      { src: "/nr1.png", text: "Diseño de interfaz.", size: "large" }, 
-      
-      // --- NUEVA ESTRUCTURA 1: TEXTO IZQ / IMAGEN (COLLAGE) DER ---
-      {
-  type: "text-image",
-        text: "Este proyecto se articula a través de un fashion film fundamentado en una investigación del movimiento New Romantic en la época de los 80's. Primeramente se elaboró análisis profundo del entorno sociocultural de la época, como tendencias de esa época, corrientes artísticas, maquillaje, vestimenta e inspiración en el que este movimiento se desarrolló. La finalidad de este proyecto permite una inmersión total que traslada al espectador a través del tiempo. Cada elemento visual y narrativo responde a una comprensión técnica del pasado, donde el diseño de indumentaria actúa como el impacto de una experiencia cinematográfica nostálgica y auténtica.",
-      },
+      { src: "/nr1.png", text: "Diseño de interfaz.", size: "large" },
 
       {
   type: "text-image",
@@ -148,7 +142,7 @@ export const projects = [
       },
       {
   type: "video-vimeo",
-  src: "1169338537", 
+  src: "1169338537",
   text: ""
 },
      
