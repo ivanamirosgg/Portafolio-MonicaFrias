@@ -25,15 +25,8 @@ const blogPosts = [
     date: "Feb, 2024",
     image: "/banner4.jpg" 
   },
-  // NUEVO ORDEN: MELBOURNE AHORA VA ANTES DE BESPOKE
-  { 
-    id: "melbourne", 
-    title: "Más allá del diseño: Mi paso por los grandes eventos de Melbourne", 
-    date: "sept 2018 - abr 2019",
-    image: "/cancha.jpeg" 
-  },
-  { 
-    id: "bespoke", 
+  {
+    id: "bespoke",
     title: "El arte del Bespoke: Creando piezas a medida para el día a día y eventos sociales", 
     date: "feb, 2026",
     image: "/banner1.jpeg" 
