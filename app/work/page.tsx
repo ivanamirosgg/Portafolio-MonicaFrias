@@ -12,7 +12,7 @@ const manrope = Manrope({ subsets: ['latin'], weight: ['400', '700'] });
 
 export default function WorkPage() {
   return (
-    <main className="min-h-screen bg-[#F3F4F4] text-[#57595B] selection:bg-[#57595B] selection:text-white">
+    <main className="min-h-screen bg-[#F3F4F4] text-[#262626] selection:bg-[#57595B] selection:text-white">
       <Navbar />
       
       <div className="pt-40 pb-20 px-4 md:px-12 max-w-[1600px] mx-auto">
@@ -69,7 +69,7 @@ export default function WorkPage() {
                        <h2 className={`${isLast ? 'text-4xl md:text-6xl' : 'text-3xl md:text-5xl'} font-bold mb-2 group-hover:text-black transition-colors`}>
                           {project.title}
                        </h2>
-                       <p className="text-[#57595B] opacity-60 text-sm tracking-widest uppercase font-bold">
+                       <p className="text-[#262626] opacity-60 text-sm tracking-widest uppercase font-bold">
                           {project.category}
                        </p>
                      </div>

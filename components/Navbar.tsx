@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Krona_One, Manrope } from 'next/font/google';
@@ -44,34 +45,19 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-6 md:px-12 md:py-8 mix-blend-difference text-white">
         
         {/* LOGO */}
-        <Link 
-            href="/" 
+        <Link
+            href="/"
             onClick={handleLogoClick}
-            className={`${krona.className} text-sm md:text-xl tracking-tighter uppercase z-50 leading-none cursor-pointer`}
+            className="z-50 leading-none cursor-pointer"
         >
-            <div className="flex items-start">
-                <span>M</span>
-                <span className="inline-flex flex-col items-center">
-                    Ó
-                    <span className="w-[0.15em] h-[0.15em] rounded-full bg-white mt-[0.1em]"></span>
-                </span>
-                <span>N</span>
-                <span>I</span>
-                <span>C</span>
-                <span className="inline-flex flex-col items-center">
-                    A
-                    <span className="w-[0.15em] h-[0.15em] rounded-full bg-white mt-[0.1em]"></span>
-                </span>
-                <span className="mx-[0.2em]"></span>
-                <span className="inline-flex flex-col items-center">
-                    F
-                    <span className="w-[0.15em] h-[0.15em] rounded-full bg-white mt-[0.1em]"></span>
-                </span>
-                <span>R</span>
-                <span>Í</span>
-                <span>A</span>
-                <span>S</span>
-            </div>
+            <Image
+                src="/LOGO NUEVO.png"
+                alt="Mónica Frías"
+                width={1683}
+                height={218}
+                priority
+                className="h-4 md:h-6 w-auto invert"
+            />
         </Link>
 
         {/* MENÚ DESKTOP */}
@@ -129,7 +115,7 @@ export default function Navbar() {
             </div>
             
             {/* CAMBIO 3: Copyright ajustado al color oscuro */}
-            <div className={`absolute bottom-12 ${manrope.className} text-[#57595B] opacity-50 text-[10px] uppercase tracking-widest`}>
+            <div className={`absolute bottom-12 ${manrope.className} text-[#262626] opacity-50 text-[10px] uppercase tracking-widest`}>
               ©2026 Mónica Frias
             </div>
           </motion.div>

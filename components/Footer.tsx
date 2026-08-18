@@ -30,7 +30,7 @@ export default function Footer() {
       <div className={`${manrope.className} flex flex-col md:flex-row justify-between items-start md:items-end w-full gap-12`}>
 
         {/* LADO IZQUIERDO */}
-        <div className="flex flex-col md:flex-row gap-12 md:gap-32 text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-[#57595B]/70">
+        <div className="flex flex-col md:flex-row gap-12 md:gap-32 text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-[#262626]/70">
            
            <div className="flex flex-col gap-2">
              {/* LINKEDIN */}
@@ -38,7 +38,7 @@ export default function Footer() {
                href="https://www.linkedin.com/in/monica-fr%C3%ADas-0419872aa/" 
                target="_blank" 
                rel="noopener noreferrer"
-               className="hover:text-[#57595B] transition-colors"
+               className="hover:text-[#262626] transition-colors"
              >
                LinkedIn
              </a>
@@ -46,23 +46,23 @@ export default function Footer() {
              {/* AGREGADO: GMAIL */}
              <a 
                href="mailto:friasmonica22@gmail.com" 
-               className="hover:text-[#57595B] transition-colors"
+               className="hover:text-[#262626] transition-colors"
              >
                Gmail
              </a>
 
-             <span className="mt-8 md:mt-12 text-[#57595B]/30">
+             <span className="mt-8 md:mt-12 text-[#262626]/30">
                2026 © Mónica Frias
              </span>
            </div>
 
            <div className="flex flex-col gap-2">
-             <p className="text-[#57595B]">Location</p>
+             <p className="text-[#262626]">Location</p>
              <p>Leon, Guanajuato</p>
              <p>Mexico</p>
              <a 
                href="mailto:friasmonica22@gmail.com" 
-               className="mt-4 hover:text-[#57595B] transition-colors text-[#57595B]"
+               className="mt-4 hover:text-[#262626] transition-colors text-[#262626]"
              >
                friasmonica22@gmail.com
              </a>
@@ -72,7 +72,7 @@ export default function Footer() {
 
         {/* LADO DERECHO (Botón) */}
         <div className="w-full md:w-auto flex flex-col items-start md:items-end gap-6">
-           <p className="text-xl md:text-2xl font-bold leading-tight text-[#57595B] md:text-right">
+           <p className="text-xl md:text-2xl font-bold leading-tight text-[#262626] md:text-right">
              Do you like <br />
              What you see?
            </p>

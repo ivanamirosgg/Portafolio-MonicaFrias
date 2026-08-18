@@ -35,7 +35,7 @@ const blogPosts = [
 
 export default function BlogSection() {
   return (
-    <section id="blog" className="bg-white text-[#57595B] py-24 px-6 md:px-16 min-h-screen">
+    <section id="blog" className="bg-white text-[#262626] py-24 px-6 md:px-16 min-h-screen">
       <div className="max-w-[1000px] mx-auto">
         
         <div className="mb-10 w-full">
